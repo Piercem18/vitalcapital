@@ -1,0 +1,665 @@
+
+
+
+html{
+    scroll-behavior: smooth;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  body{
+    margin:0;
+   
+  }
+  
+  h1,h2,h3{
+    font-family: 'Nanum Myeongjo', serif;
+  }
+.intro{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+.introBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    filter:brightness(50%);
+}
+
+.introBackground  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactBar, .navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 10vw;
+    gap:5vw;
+    font-size:1.3vw;
+   text-decoration: none;
+}
+.list, .clientsRight, .description{
+    font-size:1.3vw;
+}
+.list> ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:1vh;
+}
+.aboutLeft>p{
+    font-size:1.3vw;
+}
+.bothBars{
+    margin-left: 5vw;
+}
+h1{
+    color: #011a3f;
+}
+h2{
+    font-size:1.5vw;
+}
+.tt{
+    padding:20px;
+}
+.ttt{
+    padding: 10px;
+    font-size: 4vw;
+    
+}
+
+.description{
+   
+    margin-left: 2vw;
+}
+.contactUscard{
+    margin-left: 2vw;
+    margin-bottom:1vh;
+}
+.card > h2{
+    margin-left: 2vw;
+}
+.card>.description{
+    color:#1a1a1a;
+    opacity: 80%;
+}
+.card>h2{
+    color:#1a1a1a;
+    opacity: 90%;
+}
+.contactBar>img{
+    height:4vh;
+}
+.rightSide{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7vw;
+    
+}
+.column>h2{
+    color:#075f85;
+}
+li {
+   
+        color:#1a1a1a;
+        opacity: 80%;
+    }
+.rightSide, .column{
+    justify-content: center;
+}
+
+.logo{
+    color:white;
+}
+.contactBar{
+  
+    display: flex;
+justify-content: space-between;
+}
+.title{
+    display: flex;
+    margin-top:9vh;
+    justify-content: flex-start;
+    color: white;
+    flex-direction: column;
+   
+    font-family: 'Nanum Myeongjo', serif;
+   
+}
+.title>img{
+    width:50vw;
+    
+}
+/* Define the button style with a semi-transparent background */
+.button {
+    background-color: #078583;
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+
+    border-radius: 50px; /* Add rounded corners if desired */
+    cursor: pointer; /* Change cursor on hover for interactivity */
+    width:14vw;
+ 
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.FAQtext> h1{
+    margin:2vw;
+    color: #075f85;
+}
+.FAQ{
+    display: flex;
+    flex-direction:row;
+    padding: 5vh 5vw;
+    background-color: #93b7be18 ;
+   
+}
+.optionsCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Three equal columns */
+    gap: 20px; /* Adjust spacing as needed */
+   
+}
+.work{
+    background-color: #075f85;
+    border-radius: 15px;
+    border-color: #075f85;
+    border: solid;
+    color:white;
+    width:7vw;
+    height:3vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.1vw;
+
+}
+
+.optionsHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width:70vw;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.spaceLeft, .spaceRight{
+    width:15vw;
+}
+.spacing{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 10px;
+   
+    padding: 5px;
+}
+
+.ctScan{
+height:50vh;
+}
+.exampleSection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.learnMore{
+    background-color:#075f85;
+    color: white;
+    border-radius:15px;
+    height:3vh;
+    border-color: #073785;
+    margin: 1vw;
+    width:11vw;
+    padding:5px;
+    font-size:20px;
+}
+.nonMed{
+    background-color:white;
+    color: #075f85;
+    border-color:#075f85 ;
+    border-radius:15px;
+    border-width:2px;
+    height:3vh;
+    margin: 1vw;
+    border:solid;
+    width:15vw;
+    padding:5px;
+    font-size:20px;
+}
+.nonMedSection{
+    background-color:#154544;
+    color:white !important;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    padding-bottom:5vh;
+}
+.nonMedTitle, .contactTitle{
+font-size:2.3vw;
+font-family: 'Nanum Myeongjo', serif;
+}
+.nonMedSection{
+    display: flex;
+    flex-direction: row;
+}
+.lighterWhite{
+    color: white;
+    opacity:80%;
+    font-size: 1vw;
+}
+.options, .optionsCards{
+    margin: 5vh;
+}
+.card:hover{
+    transform: scale(1.05); /* Enlarge the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a deeper shadow */
+}
+.whoWeAre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.headshot{
+    height:30vh;
+    margin:4vh;
+    
+}
+
+.aboutLeft, .aboutRight{
+    display: flex;
+    flex-direction: column;
+
+}
+.clientsIMG{
+    height:50vh;
+}
+.aboutLeft{
+    margin-left: 5vw;
+}
+.aboutLeft > h2{
+    color:#075f85;
+}
+.workWithUsTitle{
+    display:flex;
+    flex-direction: column;
+    margin-left:5vw;
+    font-family: 'Nanum Myeongjo', serif;
+
+}
+.workWithUsTitle> h2{
+    color:#075f85;
+}
+.aboutSection{
+    background-color:#e2dddd73;
+}
+.clientsRight{
+    margin:5vw;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.workWithUsButton{
+    background-color:#e2dddd73;
+    color: #011a3f;
+   
+    border-color:#e2dddd73;
+    border-radius: 15px;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.otherPics{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+}
+.otherPics>img{
+    height:20vh;
+}
+.whyWorkWithUs{
+    background-color:#e2dddd73;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding-bottom: 5vh;
+}
+
+
+.contactSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:5vw;
+    
+}
+.contactUs{
+    width:40vw;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.examplesCards{
+    height:40vh;
+}
+.trucks{
+    margin-right:10vw;
+    margin-left:1vw;
+}
+
+.secondHalf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:2vw;
+}
+ .form{
+    display: flex;
+   justify-content: center;
+}
+.option{
+    color:#073785;
+    font-size:1.2vw;
+}
+.FAQIMG> img{
+    width:50vw;
+    height: 100%;
+    background-color: #93b7be18 ;
+    margin-left: 2vw;
+
+}
+.equipmentOptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 1vh;
+    gap:1vh;
+}
+.creditOptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1vh;
+    gap:1vh;
+}
+.yearsOption{
+    display: flex;
+   flex-direction: row;
+   padding: 1vh;
+   gap:3vh;
+}
+.contactTitle{
+    color:#075f85;
+    font-family: 'Nanum Myeongjo', serif;
+
+}
+  .left{
+    margin-left:5vw;
+    
+  }
+  .contactInfo>input{
+    height:3vh;
+    width: 15vw;
+  }
+#formButton{
+    background-color: #075f85;
+    border-radius: 60px;
+    border-color: #075f85;
+    border: solid;
+    color:white;
+    height:5vh;
+    width:15vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+select{
+    display: flex;
+    flex-direction: column;
+    background-color: #93b7bebd;
+}
+.right>label{
+    margin-bottom:2vh;
+}
+form {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Three equal columns */
+    gap:3vw;
+    margin:3vh;
+    color:black;
+    place-items: center;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: rgba(150, 150, 150, 0.329);
+    padding:3vh;
+
+  }
+  
+  .footer {
+    background-color: #073785; /* Add your preferred background color */
+    color: white; /* Add your preferred text color */
+   
+    padding: 20px;
+    padding-top:5vh;
+  }
+  .logoFooter{
+    height:4vh;
+    padding-bottom:5vh;
+  }
+  .navBarFooter{
+    display: flex;
+    flex-direction: row;
+    gap:3vw;
+    height:20vh;
+    font-size:1.3vw;
+  }
+  
+  
+  @media screen and (max-width:430px){
+    
+    .optionsCards, .aboutSection, .featuredService, .contactSection, form{
+        display: flex;
+        flex-direction: column;
+    }
+    .navBar{
+        font-size: 20px;
+    }
+    .contactBar>img{
+        height:3vh;
+    }
+    .button{
+        width: 60vw;
+    }
+    .title>img{
+        width:75vw;
+    }
+    .examplesCards{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #hide{
+        display: none;
+    }
+    .featuredService{
+        margin:1vw;
+        background-image: none;
+        background-color: #aab4a9;
+    }
+     input, select, #formButton{
+        
+        height: 5vh;
+    }
+    .aboutSection{
+        margin-top:3vh;
+    }
+    .navBar{
+        display: none;
+        
+    }
+    .ttt{
+        font-size:10vw;
+    }
+    .tt{
+        font-size:5vw;
+    }
+    .spaceLeft, .spaceRight{
+        display:none;
+    }
+    .description{
+        font-size:5vw;
+    }
+    h2{
+        font-size:7vw;
+    }
+    .option{
+        font-size:4vw;
+    }
+    .ctScan{
+        width:100vw;
+    }
+    .exampleSection{
+        flex-direction: column;
+    }
+    .list{
+        font-size: 5vw;
+    }
+    .buttons{
+        justify-content: space-between;
+    }
+    .learnMore{
+        width:35vw;
+    }
+    .nonMed{
+        width:35vw;
+        height:9vh;
+    }
+    .whoWeAre{
+        flex-direction: column;
+    }
+    .aboutLeft>p{
+        font-size: 4vw;
+    }
+    .clientsRight{
+        font-size: 4vw;
+    }
+    .work{
+        width:35vw;
+        font-size: 4vw;
+    }
+    .nonMedSection{
+        flex-direction: column;
+    }
+    .van{
+        width:80vw;
+    }
+    .lighterWhite{
+        font-size:4vw;
+    }
+    .nonMedTitle{
+        font-size:6vw;
+    }
+    .FAQIMG{
+        display: none;
+    }
+    .contactUs{
+        width:100vw;
+    }
+    .contactTitle{
+        font-size: 7vw;
+    }
+    .contactInfo>input{
+        width:80vw;
+        height: 5vh;
+    }
+    input[type=radio] {
+        height: 1em;
+    }
+    input[type=checkbox] {
+        height: 1em;
+    }
+    form{
+        grid-template-columns: 1fr;
+    }
+    .creditOptions, .yearsOption{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .equipmentOptions{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #formButton{
+        width:50vw;
+        font-size: 4vw;
+    }
+    .navBarFooter{
+        display: none;
+    }
+    .logoFooter{
+        height:2vh;
+    }
+    .contactBar{
+        font-size: 4vw;
+    }
+    .clientsIMG{
+        width: 100vw;
+        height: auto;
+    }
+    .ctScan, .headshot{
+        width:100vw;
+        height:auto;
+    }
+    .footer{
+        width: 100vw;
+    }
+    img{
+        overflow: hidden;
+    }
+    .introBackground{
+ width: 110vw;
+ 
+    }
+  }
+    
+  
+  
